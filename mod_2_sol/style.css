@@ -16,8 +16,7 @@ p{
     background-color:magenta;
     width: 90%;
     height: 150px;
-    border: 2px solid yellow;
-    margin-right: 2px;
+    border: 1px solid yellow;
     margin-left: auto;
     margin-right: auto;
     color: black;
@@ -26,12 +25,33 @@ p{
 .title{
    position: absolute;
    right: 0%;
+   top:0%;
     background-color: red;
     border: 1px solid black;
-    size: 25%;
+    size: 85%;
     
     
 }
+.title2{
+    position: absolute;
+    right: 0%;
+    top:0%;
+     background-color: pink;
+     border: 1px solid black;
+     size: 25%;
+     
+     
+ }
+ .title3{
+    position: absolute;
+    right: 0%;
+    top:0%;
+     background-color: greenyellow;
+     border: 1px solid black;
+     size: 25%;
+     
+     
+ }
 @media(min-width:992px){
     
 .bg {
