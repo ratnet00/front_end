@@ -1,0 +1,31 @@
+#navbar{
+padding: 0 0 0 0;
+}
+#myNav{
+    background: white;
+}
+.navbar-toggler{
+    margin-right: 2%;
+}
+.navbar-brand{
+    padding-left: 2%;
+}
+.chicken, .beef, .sushi{
+    height:700px;
+    width: 200px;
+    overflow: hidden;
+    border: 1px solid black;
+    margin-bottom: 1%;
+    background:beige
+
+}
+body{
+    background:peachpuff;
+}
+.menu{
+    margin-top: 2%;
+    margin-bottom:2%;
+}
+.item{
+    border: 1px solid black;
+}

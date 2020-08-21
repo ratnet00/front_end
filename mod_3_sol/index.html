@@ -9,6 +9,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -25,26 +26,37 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-light bg-warning">
-    <div class="nav-brand">Food,LLC</div>
-    <button class="navbar-toggler " type="button" data-target="myNav" data-toggle="collapse"><span
-        class="navbar-toggler-icon"></span></button>
-    <div class="collapse collapse-navbar" id="myNav">
-      <a class="navbar-brand" href="#">Hidden brand</a>
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark  bg-dark" id="navbar">
+    <div class="navbar-brand">Food, LLC</div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class=" d-lg-none collapse navbar-collapse text-center" id="myNav">
+      <div class="d-lg-none item">Chicken</div>
 
+      <div class="d-lg-none item">Beef</div>
+
+      <div class="d-lg-none item">Sushi</div>
 
     </div>
+  </nav>
+  <h2 class="text-center menu">Our Menu</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 chicken">
+        <h3 class="text-center">Chicken</h3>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-12 beef">
+        <h3 class="text-center">Beef</h3>
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12 sushi">
+        <h3 class="text-center">Sushi</h3>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
   </nav>
 
 
